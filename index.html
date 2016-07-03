@@ -1,75 +1,77 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8"></meta>
-	<link rel="stylesheet" type="text/css" href="style.css"></link><!--css_connection-->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta><!--resposivity-->
+	<html>
+		<head>
+			<meta charset="utf-8"></meta>
+			<link rel="stylesheet" type="text/css" href="style.css"></link><!--C S S _connection-->
+			<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta><!--R E S P O N S I V I T Y-->
+			<link rel="shortcut icon" type="image/png" href="http://mysite.com/favicon.ico" sizes="16x16"/><!--FAVICON-->
+			<link rel="manifest" href="/manifest.json"/><!--FAVICON-->
+			<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"/><!--FAVICON-->
+			<meta name="theme-color" content="#ffffff"/><!--FAVICON-->
 
-<link rel="shortcut icon" type="image/png" href="http://mysite.com/favicon.ico" sizes="16x16"/><!--FAVICON-->
-<link rel="manifest" href="/manifest.json"/>
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"/>
-<meta name="theme-color" content="#ffffff"/>
+			<title>css cheat sheet</title>
+		</head>
 
-	<title>css cheat sheet</title>
+		<body>
+			<header>
+				<h2>CSS for those who knows nothing about Cascading Style Sheet ..... for now.</h2>
+			</header>
+				<table>
+					<thead>
+						<tr class="header1">
+							<th scope="col">Must to know</th><th scope="col">Must to do</th>
+						</tr>
+					</thead><!--W A R N I N G !!!  close the T A G corectly -->
 
-</head>
-	<body>
-		<header>
-			<h2>CSS for those who knows nothing about Cascading Style Sheet ..... for now.</h2>
-		</header>
-		<table>
-			<thead>
-			<tr>
-				<th scope="col">Must to know</th>  <th scope="col">Must to have</th>  <th scope="col">Must to do</th>
-			</tr>
-			</thead>
-			<tbody>
-			<tr>
-				<td scope="row">CSS works only with / for HTML<br><br>
-					Connection CSS code with HTML code (palced between "head" tags): <br>		<strong class="conn"><"link href="style.css" rel="stylesheet" media="all" type="text/css"></strong><br><br>
+					<tbody>
+						<tr>
+							<td scope="row">CSS works only with / for HTML<br><br>
+								Connection CSS code with HTML code (palced between "head" tags): <br>		<strong class="conn"><"link href="style.css" rel="stylesheet" media="all" type="text/css"></strong>
+								<br>
+								<br>
+								CSS structure:
+								<strong class="sel">sélecteur</strong>
+								<strong class="bra">{</strong>
+								<strong class="prop">propriété:</strong>
 
-					</head>
-					CSS structure:
-					<strong class="sel">sélecteur</strong>
-					<strong class="bra">{</strong>
-					<strong class="prop">propriété:</strong>
+								<strong class="val">valeur</strong>
+								<strong class="semi">;</strong>
+								<strong class="bra">}</strong>       //       each character is <strong class="imp">importrant !!!</strong>
+								<br>
+								<br>
+								Style defined <strong class="imp">at last</strong> the tree-code has the <strong class="imp">priority</strong>
+								<br>
+								<br>
+								Responsiveness = fluid layout is defined in the CSS code:<br>
 
-					<strong class="val">valeur</strong>
-					<strong class="semi">;</strong>
-					<strong class="bra">}</strong>       //       each character is <strong class="imp">importrant !!!</strong><br><br>
+								<strong class="med">@media screen and (min-width: 480px){body{color: green;}}</strong><br>
+								   // that's the break-point for smart-phones in landscape mode
+									 <br>
+									 <br>
+									 - separate conditions for separate devices must be defined (smartphones / tablets / computers)
+									 <br>
+									 <br>
 
-					Style defined <strong class="imp">at last</strong> the tree-code has the <strong class="imp">priority</strong><br><br>
-
-					Responsiveness = fluid layout is defined in the CSS code:<br>
-
-					<strong class="med">@media screen and (min-width: 480px){body{color: green;}}</strong><br>
-					   // that's the break-point for smart-phones in landscape mode<br><br>
-
-					- separate conditions for separate devices must be defined (smartphones / tablets / computers)<br><br>
-
-					Relationship between media screen in CSS and HTML:<br>
-					<strong class="conn">	<"meta name="viewport" content="width=device-width, initial-scale=1.0""></meta></strong>
+									Relationship between media screen in CSS and HTML:<br>
+									<strong class="conn">	<"meta name="viewport" content="width=device-width, initial-scale=1.0""></meta></strong>
 
 
+									<td scope="row">Learn / practice english - the best informations are on the English-language websites<br>
 
-				</td>
+									</td>
+							</td>
+						</tr>
+					</tbody>
+				</table>
 				<br>
-				<td scope="row">Must to have</td>
-				<td scope="row">Must to do</td>
-			</tr>
-			</tbody>
-		</table><br>
 
-		<h3>For stubborn:</h3>
+				<h3>For stubborn:</h3>
 
-<ul>
-				<li><a href="https://openclassrooms.com/courses/build-your-website-with-html5-and-css3" target="blank">CSS videos</a></li>
-				<li><a href="https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started" target="blank">Getting started with Css</a></li>
-				<li><a href="http://www.w3schools.com/cssref/" target="blank">Css with W3C</a></li>
-</ul>
-
-
-
-
-	</body>
-</html>
+					<ul>
+						<li><a href="https://openclassrooms.com/courses/build-your-website-with-html5-and-css3" target="blank">CSS videos</a></li>
+						<li><a href="https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started" target="blank">Getting started with Css</a></li>
+						<li><a href="http://www.w3schools.com/cssref/" target="blank">Css with W3C</a></li>
+					</ul>
+				</table>
+			</body>
+	</html>
