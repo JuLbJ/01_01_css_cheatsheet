@@ -1,36 +1,104 @@
 /*_____________________________________________________Media queries___________________________________________________________*/
 																																		/*_______Smartphones_______*/
-@media only screen and (max-width : 320px) {
+@media only screen and (max-width: 320px) {
 /*=======Styles go here=======*/
 body{
-	background: blue;
+	background: #f4f7ed;
 }
 }
 																																		/*_______Tablets______*/
-@media only screen and (min-width : 321px)and (max-width : 480px) {
+@media only screen and (min-width: 321px) and (max-width: 480px) {
 /*=======Styles go here=======*/
 body{
-	background: yellow;
+	background: #dde8ca;
 }
 }
 																																		/*_______Medium devices_______*/
 @media only screen and (min-width: 481px) and (max-width: 1200px) {
 /*=======Styles go here=======*/
 body{
-	background: green;
+	background: #c6d8a6;
 }
 }
 /*____________________________________________________C l a s s selectors____________________________________________________________*/
 
 body{
-	font-family: Times;
-}
+	font-family: "Times New Roman", Times, serif;
 
-header{
+}
+h2, h3 .imm{
 	color: #749C69;
+	font-style: oblique;
 }
 
-}
+/*____________________________________T A B L E____________________________________________*/
+table{
+	width: 100%;
+	}
+table, th, td{
+	border: 1px solid #749C69;
+	}
 th{
 	color: #222e1f;
+	height: 40px;
+	text-align: left;
+	font-size: 22px;
+	}
+td, th {
+	padding: 8px 8px;
+	width: 50%;
+	vertical-align: top;
+}
+/*______________________________________T A B L E ___ e n d __________________*/
+
+
+/*______________________________________Subclass selectors ___________________*/
+.sel{
+	color: #225194;
+}
+.prop{
+	color: #9AFF1B;
+}
+.semi{
+	color: #E00033;
+}
+.bra{
+	color: #FFBD0E;
+}
+.val{
+	color: #434523;
+}
+.imp{
+	color: #FF0025;
+}
+.conn{
+	text-decoration: underline;
+}
+.med{
+	color: #566348;
+ text-decoration-style: solid;
+}
+.header1{
+	background-color: #849B69;
+}
+
+
+.eng{
+	color: #cc3d24;
+}
+.lang{
+	color: #203992;
+}
+.lear{
+	color: #203992;
+	word-spacing: 10px;
+}
+
+/*______________________________________a___h r e f___________________________*/
+
+a:link:hover,a:visited:hover{ /*__________link change the color unedr the mouse __________*/
+	color: #749C69;
+	}
+a:link,a:visited{  /*__________link change the color after visiting it __________*/
+	color: #f6b71f;
 }
