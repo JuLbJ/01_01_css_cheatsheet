@@ -1,58 +1,64 @@
-/*_____________________________________________________Media queries___________________________________________________________*/
-																																		/*_______Smartphones_______*/
+/*_____________________________ Media queries __________________________________*/
+																								   /*_______Smartphones_______*/
 @media only screen and (max-width: 320px) {
 /*=======Styles go here=======*/
 body{
 	background: #f4f7ed;
 }
 }
-																																		/*_______Tablets______*/
+																												/*_______Tablets______*/
 @media only screen and (min-width: 321px) and (max-width: 480px) {
 /*=======Styles go here=======*/
 body{
 	background: #dde8ca;
 }
 }
-																																		/*_______Medium devices_______*/
+																		    				/*_______Medium devices_______*/
 @media only screen and (min-width: 481px) and (max-width: 1200px) {
 /*=======Styles go here=======*/
 body{
 	background: #c6d8a6;
 }
 }
-/*____________________________________________________C l a s s selectors____________________________________________________________*/
+/*____________________ C l a s s selectors _____________________________________*/
 
 body{
 	font-family: "Times New Roman", Times, serif;
-
 }
+
 h2, h3 .imm{
 	color: #749C69;
 	font-style: oblique;
 }
 
-/*____________________________________T A B L E____________________________________________*/
+/*__________________________________ T A B L E _ on __________________________*/
+
 table{
 	width: 100%;
 	}
+
 table, th, td{
 	border: 1px solid #749C69;
 	}
+
 th{
 	color: #222e1f;
 	height: 40px;
 	text-align: left;
 	font-size: 22px;
 	}
+
 td, th {
 	padding: 8px 8px;
 	width: 50%;
 	vertical-align: top;
 }
-/*______________________________________T A B L E ___ e n d __________________*/
+
+/*__________________________________T A B L E _ off __________________________*/
 
 
-/*______________________________________Subclass selectors ___________________*/
+/*__________________________________ Subclass selectors ________________________*/
+
 .sel{
 	color: #225194;
 }
@@ -81,8 +87,6 @@ td, th {
 .header1{
 	background-color: #849B69;
 }
-
-
 .eng{
 	color: #cc3d24;
 }
@@ -96,9 +100,9 @@ td, th {
 
 /*______________________________________a___h r e f___________________________*/
 
-a:link:hover,a:visited:hover{ /*__________link change the color unedr the mouse __________*/
+a:link:hover,a:visited:hover{ /*___link change the color unedr the mouse _____*/
 	color: #749C69;
 	}
-a:link,a:visited{  /*__________link change the color after visiting it __________*/
+a:link,a:visited{  /*__________link change the color after visiting it _______*/
 	color: #f6b71f;
 }
